@@ -1,0 +1,40 @@
+.stop-watch-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.stop-watch{
+		width: 600px;
+		border-radius: 8px;
+		border: 1px solid #DADCE0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 5em;
+		
+		& .header{
+			height: 46px;
+			width: 100%;
+			border-bottom: 2px solid #4285F4;
+			color: #4285F4;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 12px;
+	
+			& .header-text{
+				font-size: 12px;
+			}
+	
+		}
+	
+		& .footer{
+			width: 100%;
+			border-top: 2px solid #DADCE0;
+			display: flex;
+			justify-content: left;
+		}
+	}
+  }
+
