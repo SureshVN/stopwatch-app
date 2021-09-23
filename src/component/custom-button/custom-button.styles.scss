@@ -1,36 +1,36 @@
 .custom-button {
-	width: 72px;
-	height: 29px;
-	background-color: #1A73E8;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-size: 11px;
-	font-weight: 700;
-	font-family: 'Roboto', sans-serif;
-	border-radius: 2px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border:none;
-	margin: 16px;
+  width: 72px;
+  height: 29px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin: 16px;
 
-	&.stop{
-		background-color: #1B5FB9;
-	}
-  
-	&.reset-button {
-	  background-color: #FFFFFF;
-	  color: #1A73E8;
-	  border: 1px solid #DADCE0;
-	  border-radius:2px;
-	  margin-left: 0;
-	}
-
-	&.reset-pressed {
-		background-color: #E4EEFC;
-		color: #1A73E8;
-		border: 1px solid #DADCE0;
-		border-radius:2px;
-		margin-left: 0;
-	  }
+  &.stop {
+    background-color: #1b5fb9;
   }
+
+  &.reset-button {
+    background-color: #ffffff;
+    color: #1a73e8;
+    border: 1px solid #dadce0;
+    border-radius: 2px;
+    margin-left: 0;
+  }
+
+  &.reset-pressed {
+    background-color: #e4eefc;
+    color: #1a73e8;
+    border: 1px solid #dadce0;
+    border-radius: 2px;
+    margin-left: 0;
+  }
+}
